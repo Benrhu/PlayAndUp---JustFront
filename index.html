@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Play and achievve the 1st position</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/src/css/style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <div class="container-fluid">
+      <div class="offset-sm-3">
+          <div class="container row">
+            <h1>Flipcards</h1>
+            <p>Play and try to achieve the 1st position</p>
+            <h6 class="col text-left">
+              High Score
+              <span id="highScore" class="badge badge-primary">0</span>
+            </h6>
+            <h6 class="col text-right">
+              Your Points <span id="yourPoints" class="badge badge-success">0</span>
+            </h6>
+          </div>
+
+        <section class="card-box">
+          <section>
+            <div class="flip-card-click" id="card-click">
+              <div class="flip-card-inner" tab-index="0">
+                <div class="flip-card-front">
+                  <h2>Card 1</h2>
+                </div>
+                <div class="flip-card-back">
+                  <p>Card 1</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="flip-card-click">
+              <div class="flip-card-inner" tabindex="0">
+                <div class="flip-card-front">
+                  <h2>Card 2</h2>
+                </div>
+                <div class="flip-card-back">
+                  <p>Card 2</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section>
+            <div class="flip-card-click">
+              <div class="flip-card-inner" tab-index="0">
+                <div class="flip-card-front">
+                  <h2>Card 3</h2>
+                </div>
+                <div class="flip-card-back">
+                  <p>Card 3</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="flip-card-click">
+              <div class="flip-card-inner" tabindex="0">
+                <div class="flip-card-front">
+                  <h2>Card 4</h2>
+                </div>
+                <div class="flip-card-back">
+                  <p>Card 4</p>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+      </div>
+    </div>
+    <!-- partial -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/src/js/script.js"></script>
+  </body>
+</html>
